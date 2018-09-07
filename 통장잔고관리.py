@@ -625,7 +625,6 @@ while True:
                                     else:
                                         sum_up += usages[maximum_index - pos].get_money()
                                     usages.pop(maximum_index - pos)
-                                maximum_index = min(index_counter, len(usages))
                                 system('CLS')
                                 print("=" * 40)
                                 print(ment)
