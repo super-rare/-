@@ -920,7 +920,6 @@ while True:
                         elif switch == b'\r':
                             if cursor == 1:
                                 f = open('list.txt', 'w')
-                                f.write((ment + '\n'))
                                 for usage in usages:
                                     write = usage.get_black_red() + ' ' + usage.get_name() + ' ' + str(usage.get_money()) + ' ' +  usage.get_docstring() + '\n'
                                     f.write(write)
